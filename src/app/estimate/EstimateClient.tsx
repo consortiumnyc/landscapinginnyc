@@ -347,8 +347,8 @@ export default function EstimateClient({ faqs }: Props) {
               { title: "Browse NYC Areas", desc: "Find landscaping in your neighborhood", href: "/areas" },
               { title: "Landscape Design", desc: "Custom garden and outdoor design", href: "/services/landscape-design" },
               { title: "Rooftop Gardens", desc: "NYC's rooftop garden specialists", href: "/services/rooftop-gardens" },
-              { title: "Hardscaping", desc: "Patios, walkways, retaining walls", href: "/services/hardscaping" },
-              { title: "Outdoor Lighting", desc: "LED landscape lighting systems", href: "/services/outdoor-lighting" },
+              { title: "Hardscaping", desc: "Patios, walkways, retaining walls", href: "/services/patio-hardscape-design" },
+              { title: "Outdoor Lighting", desc: "LED landscape lighting systems", href: "/services/landscape-lighting" },
               { title: "Irrigation Systems", desc: "Smart watering solutions", href: "/services/irrigation-systems" },
               { title: "Snow Removal", desc: "Commercial & residential snow services", href: "/services/snow-removal" },
             ].map((item) => (

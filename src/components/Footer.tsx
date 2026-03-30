@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const serviceLinks = [
   { label: "All Services", href: "/services" },
-  { label: "Garden Design", href: "/services/garden-design" },
-  { label: "Lawn Care & Maintenance", href: "/services/lawn-care" },
-  { label: "Hardscaping & Patios", href: "/services/hardscaping" },
-  { label: "Tree & Shrub Care", href: "/services/tree-and-shrub-care" },
-  { label: "Outdoor Living Spaces", href: "/services/outdoor-living" },
+  { label: "Garden Design", href: "/services/landscape-design" },
+  { label: "Lawn Care & Maintenance", href: "/services/lawn-garden-maintenance" },
+  { label: "Hardscaping & Patios", href: "/services/patio-hardscape-design" },
+  { label: "Tree & Shrub Care", href: "/services/tree-shrub-care" },
+  { label: "Outdoor Living Spaces", href: "/services/outdoor-living-spaces" },
   { label: "Commercial Landscaping", href: "/services/commercial-landscaping" },
 ];
 
