@@ -164,12 +164,12 @@ export default async function JobPage({ params }: Props) {
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href={`mailto:${EMAIL}?subject=Application: ${job.title} in ${area.name}&body=Hi, I'd like to apply for the ${job.title} position in ${area.name}, ${area.borough}. Please find my information below:%0A%0AName:%0APhone:%0AExperience:%0A`}
+            <Link
+              href="/apply"
               className="inline-block rounded-lg bg-white px-8 py-4 text-base font-bold text-green-700 shadow-lg hover:bg-green-50 transition-colors font-cta"
             >
               Apply Now
-            </a>
+            </Link>
             <a
               href={PHONE_HREF}
               className="inline-block rounded-lg border-2 border-white/30 px-8 py-4 text-base font-bold text-white hover:bg-white/10 transition-colors font-cta"
@@ -274,15 +274,15 @@ export default async function JobPage({ params }: Props) {
               Ready to Apply?
             </h2>
             <p className="text-green-100/80 mb-6">
-              Send your name, phone number, and experience to <strong className="text-white">{EMAIL}</strong> or call us directly.
+              Upload your resume and a short selfie video. We respond within 48 hours.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a
-                href={`mailto:${EMAIL}?subject=Application: ${job.title} in ${area.name}`}
+              <Link
+                href="/apply"
                 className="inline-block rounded-lg bg-white px-8 py-3 text-sm font-bold text-green-700 hover:bg-green-50 transition-colors font-cta"
               >
-                Email Application
-              </a>
+                Apply Now
+              </Link>
               <a
                 href={PHONE_HREF}
                 className="inline-block rounded-lg border-2 border-white/30 px-8 py-3 text-sm font-bold text-white hover:bg-white/10 transition-colors font-cta"

@@ -213,12 +213,12 @@ export default async function BoroughCareersPage({ params }: Props) {
             >
               View {boroughName} Positions
             </a>
-            <a
-              href={`mailto:green@landscapinginnyc.com?subject=Application%20-%20${boroughName}%20Landscaping`}
+            <Link
+              href="/apply"
               className="rounded-lg border-2 border-white px-6 py-3 font-semibold text-white transition hover:bg-white/10"
             >
               Apply Now
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -269,12 +269,12 @@ export default async function BoroughCareersPage({ params }: Props) {
                   {pos.type}
                 </span>
                 <div className="mt-4">
-                  <a
-                    href={`mailto:green@landscapinginnyc.com?subject=Application%20-%20${encodeURIComponent(pos.title)}%20-%20${boroughName}`}
+                  <Link
+                    href="/apply"
                     className="inline-block rounded-lg bg-green-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-green-700"
                   >
                     Apply Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}
@@ -316,16 +316,15 @@ export default async function BoroughCareersPage({ params }: Props) {
             Ready to Join Our {boroughName} Team?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-green-100">
-            Send your resume to our hiring team. Include the position you are interested in
-            and your preferred {boroughName} neighborhood. We respond within 5 business days.
+            Upload your resume and a short selfie video. We review every application and respond within 48 hours.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a
-              href={`mailto:green@landscapinginnyc.com?subject=Application%20-%20${boroughName}%20Landscaping`}
+            <Link
+              href="/apply"
               className="rounded-lg bg-white px-6 py-3 font-semibold text-green-700 shadow-lg transition hover:bg-green-50"
             >
-              Email Your Resume
-            </a>
+              Apply Now
+            </Link>
             <a
               href={PHONE_HREF}
               className="rounded-lg border-2 border-white px-6 py-3 font-semibold text-white transition hover:bg-white/10"

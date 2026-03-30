@@ -284,12 +284,12 @@ export default function CareersPage() {
             >
               View Open Positions
             </a>
-            <a
-              href={`mailto:green@landscapinginnyc.com?subject=Job%20Application%20-%20${SITE_NAME}`}
+            <Link
+              href="/apply"
               className="rounded-lg border-2 border-white px-6 py-3 font-semibold text-white transition hover:bg-white/10"
             >
               Apply Now
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -348,12 +348,12 @@ export default function CareersPage() {
                       <span>New York City</span>
                     </div>
                   </div>
-                  <a
-                    href={`mailto:green@landscapinginnyc.com?subject=Application%20-%20${encodeURIComponent(pos.title)}`}
+                  <Link
+                    href="/apply"
                     className="shrink-0 rounded-lg bg-green-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-green-700"
                   >
                     Apply Now
-                  </a>
+                  </Link>
                 </div>
                 <p className="mt-4 text-gray-600">{pos.description}</p>
                 <div className="mt-4 grid gap-4 sm:grid-cols-2">
@@ -423,17 +423,17 @@ export default function CareersPage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">Ready to Apply?</h2>
           <p className="mx-auto mt-4 max-w-2xl text-green-100">
-            Send your resume and a brief cover letter to our hiring team. Tell us which
+            Upload your resume and a short selfie video telling us about yourself. Tell us which
             position interests you, your experience, and which borough you prefer to work in.
-            We review every application and respond within 5 business days.
+            We review every application and respond within 48 hours.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a
-              href={`mailto:green@landscapinginnyc.com?subject=Job%20Application%20-%20${SITE_NAME}`}
+            <Link
+              href="/apply"
               className="rounded-lg bg-white px-6 py-3 font-semibold text-green-700 shadow-lg transition hover:bg-green-50"
             >
-              Email Your Resume
-            </a>
+              Apply Now
+            </Link>
             <a
               href={PHONE_HREF}
               className="rounded-lg border-2 border-white px-6 py-3 font-semibold text-white transition hover:bg-white/10"
