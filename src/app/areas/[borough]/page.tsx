@@ -142,7 +142,7 @@ export default async function BoroughPage({ params }: Props) {
     name: `${SITE_NAME} — ${boroughName} Landscaping`,
     description: `Professional landscaping services for ${neighborhoods.length} neighborhoods in ${boroughName}. Design, installation, and maintenance.`,
     url: boroughUrl,
-    telephone: "+1-212-202-8770",
+    telephone: "+1-212-470-9637",
     areaServed: {
       "@type": "AdministrativeArea",
       name: boroughName,

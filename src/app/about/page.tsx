@@ -42,7 +42,7 @@ export default function AboutPage() {
               "@type": "LandscapingBusiness",
               name: SITE_NAME,
               url: SITE_DOMAIN,
-              telephone: "(212) 202-8770",
+              telephone: "(212) 470-9637",
               email: EMAIL,
               foundingLocation: {
                 "@type": "Place",

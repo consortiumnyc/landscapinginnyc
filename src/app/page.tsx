@@ -17,7 +17,7 @@ const reviewSchema = {
   "@type": "LandscapingBusiness",
   name: SITE_NAME,
   url: SITE_DOMAIN,
-  telephone: "+1-212-202-8770",
+  telephone: "+1-212-470-9637",
   email: EMAIL,
   address: {
     "@type": "PostalAddress",
@@ -83,7 +83,7 @@ const howToSchema = {
 export const metadata: Metadata = {
   title: "NYC Landscaping Services — Premium Landscape Design & Maintenance (2026)",
   description:
-    "The #1 NYC landscaping company. Landscape design, rooftop gardens, irrigation, hardscaping, maintenance & more across all 5 boroughs, Long Island & Westchester. Free estimates. Call (212) 202-8770.",
+    "The #1 NYC landscaping company. Landscape design, rooftop gardens, irrigation, hardscaping, maintenance & more across all 5 boroughs, Long Island & Westchester. Free estimates. Call (212) 470-9637.",
   keywords: [
     "nyc landscaping",
     "landscaping in nyc",

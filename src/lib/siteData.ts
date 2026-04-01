@@ -2,9 +2,9 @@
 
 export const SITE_NAME = "Landscaping In NYC";
 export const SITE_DOMAIN = "https://www.landscapinginnyc.com";
-export const PHONE = "(212) 202-8770";
-export const PHONE_HREF = "tel:2122028770";
-export const SMS_HREF = "sms:2122028770";
+export const PHONE = "(212) 470-9637";
+export const PHONE_HREF = "tel:2124709637";
+export const SMS_HREF = "sms:2124709637";
 export const EMAIL = "green@landscapinginnyc.com";
 export const ADDRESS = "150 W 47th St, New York, NY 10036";
 

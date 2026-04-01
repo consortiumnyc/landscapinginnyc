@@ -1,6 +1,6 @@
 const DOMAIN = "https://www.landscapinginnyc.com";
 const BIZ_NAME = "Landscaping In NYC";
-const PHONE = "+1-212-202-8770";
+const PHONE = "+1-212-470-9637";
 
 export const organizationSchema = {
   "@context": "https://schema.org",

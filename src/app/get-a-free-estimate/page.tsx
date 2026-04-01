@@ -12,7 +12,7 @@ const contactSchema = {
   mainEntity: {
     "@type": "LocalBusiness",
     name: SITE_NAME,
-    telephone: "+1-212-202-8770",
+    telephone: "+1-212-470-9637",
     email: EMAIL,
     areaServed: { "@type": "City", name: "New York" },
     serviceType: "Landscaping Services",

@@ -92,7 +92,7 @@ export default async function AreaPage({ params }: Props) {
     name: `${SITE_NAME} — ${area.name} Landscaping`,
     description: `Professional landscaping services in ${area.name}, ${area.borough}. Design, installation, and year-round maintenance.`,
     url: canonicalUrl,
-    telephone: "+1-212-202-8770",
+    telephone: "+1-212-470-9637",
     areaServed: {
       "@type": "Place",
       name: `${area.name}, ${area.borough}`,

@@ -127,8 +127,8 @@ export default function Navbar() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-1.5">
           {/* Mobile: phone only */}
           <div className="flex items-center gap-3 sm:hidden">
-            <a href="tel:+12122028770" className="text-xs font-semibold text-green-400 font-cta">
-              (212) 202-8770 | Call
+            <a href="tel:+12124709637" className="text-xs font-semibold text-green-400 font-cta">
+              (212) 470-9637 | Call
             </a>
           </div>
           {/* Desktop: full top bar */}
@@ -145,8 +145,8 @@ export default function Navbar() {
             <Link href="/careers" className="shrink-0 text-xs font-semibold text-green-400 transition-colors hover:text-green-300 font-cta">Jobs</Link>
           </div>
           <div className="hidden items-center gap-3 shrink-0 sm:flex">
-            <a href="tel:+12122028770" className="text-xs font-semibold text-green-400 transition-colors hover:text-green-300 font-cta">
-              (212) 202-8770 | Call
+            <a href="tel:+12124709637" className="text-xs font-semibold text-green-400 transition-colors hover:text-green-300 font-cta">
+              (212) 470-9637 | Call
             </a>
           </div>
         </div>
@@ -456,11 +456,11 @@ export default function Navbar() {
                   {/* Phone -- highlighted in mobile */}
                   <div className="my-2 h-px bg-slate-200" />
                   <a
-                    href="tel:+12122028770"
+                    href="tel:+12124709637"
                     onClick={() => setMobileOpen(false)}
                     className="rounded-lg px-4 py-3 text-base font-bold text-green-600 transition-colors hover:bg-green-50 font-cta"
                   >
-                    (212) 202-8770 | Call
+                    (212) 470-9637 | Call
                   </a>
 
                   {/* CTA */}

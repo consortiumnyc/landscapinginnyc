@@ -481,10 +481,10 @@ export default function FAQClient() {
               Contact Us
             </Link>
             <a
-              href="tel:2122028770"
+              href="tel:2124709637"
               className="inline-block rounded-lg border-2 border-white/30 px-8 py-3 text-sm font-bold text-white hover:bg-white/10 transition-colors font-cta"
             >
-              (212) 202-8770
+              (212) 470-9637
             </a>
           </div>
         </div>
